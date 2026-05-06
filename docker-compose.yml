@@ -1,0 +1,17 @@
+services:
+  nexus-agent:
+    build: .
+    image: nexus-agent:latest
+    # On Apple Silicon, this builds natively. Intel Macs are also fine.
+    # Force amd64 with: platform: linux/amd64
+    env_file:
+      - .env
+    environment:
+      - HUMAN_IN_THE_LOOP=${HUMAN_IN_THE_LOOP:-0}
+    volumes:
+      - ./reports:/app/reports
+      - ./data:/app/data:ro
+    stdin_open: true
+    tty: true
+    # Override `command` to switch scenarios:
+    #   docker compose run --rm nexus-agent --scenario grid_cyberattack --heatmap

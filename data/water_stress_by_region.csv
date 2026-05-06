@@ -1,0 +1,9 @@
+region,baseline_water_stress_0to5,data_center_mw_2024,thermoelectric_withdrawals_bgd,recharge_balance,notes
+Northern_Virginia,3.2,3800,0.8,deficit,"Largest US data-center cluster; aquifer recharge under pressure."
+Phoenix_AZ,4.6,800,0.3,deficit,"Colorado River shortages; rapid DC build-out continues."
+Dallas_TX,3.9,1100,1.2,deficit,"ERCOT load growth + cooling-water constraints."
+Atlanta_GA,2.4,950,0.6,balanced,"Lake Lanier dependency; cooling water adequate."
+Chicago_IL,1.8,750,0.9,surplus,"Great Lakes proximity; thermoelectric withdrawals high but returns are high."
+Hillsboro_OR,2.1,650,0.2,balanced,"Hydro-rich; data center water trending downward via dry cooling."
+Las_Vegas_NV,4.8,420,0.1,deficit,"Lake Mead crisis; future DC siting under restriction."
+Columbus_OH,2.6,580,0.7,balanced,"Intel fab + DC growth - watch."

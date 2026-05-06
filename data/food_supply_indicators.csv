@@ -1,0 +1,9 @@
+commodity,energy_intensity_mj_per_kg,water_intensity_l_per_kg,grid_dependency,cold_chain_hours_to_loss,notes
+beef,75,15400,medium,8,"Feed energy + slaughter + cold chain."
+pork,38,6000,medium,12,"Mid energy intensity; cold storage critical."
+poultry,22,4300,high,12,"Climate-controlled barns + chillers."
+dairy,15,1000,high,4,"Refrigeration mandatory at every step."
+wheat,4,1800,low,168,"Mostly mechanical; storage tolerates outages."
+maize,5,1200,low,168,"Drying & storage some power; not time-critical."
+leafy_greens,2,330,high,24,"Cold chain + processing line uptime."
+processed_foods,12,2500,high,48,"Most plants have 24h gas/elec backup."

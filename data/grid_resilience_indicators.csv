@@ -1,0 +1,9 @@
+region,saidi_minutes_2024,renewables_pct,reserve_margin_pct,heat_dome_risk,cyber_incidents_2024,notes
+ERCOT_TX,180,42,18,high,4,"Winter Storm Uri scarring; rapid load growth from data centers."
+CAISO_CA,90,55,12,high,2,"Hydro variance; wildfire-driven public safety power shutoffs."
+PJM_MidAtlantic,75,12,17,medium,3,"Northern Virginia data-center cluster pulling capacity."
+MISO_Midwest,110,30,16,medium,2,"Coal retirements outpacing replacement build."
+NYISO_NY,55,32,20,low,1,"Fossil-peaker dependency in NYC zone J."
+SPP_Plains,140,48,15,medium,1,"Wind dominance + transmission constraints."
+ISO-NE,60,28,21,low,1,"Winter gas-electric coordination still fragile."
+SERC_Southeast,80,18,19,medium,2,"Vertically integrated utilities, slower transition."

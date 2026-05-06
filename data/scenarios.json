@@ -1,0 +1,25 @@
+{
+  "data_center_water": {
+    "title": "Data center demand vs. water scarcity (US)",
+    "horizon_years": 5,
+    "regions": ["Northern_Virginia", "Phoenix_AZ", "Dallas_TX"],
+    "key_metrics": [
+      "direct_cooling_withdrawals_mgd",
+      "indirect_thermoelectric_withdrawals_mgd",
+      "baseline_water_stress_index"
+    ]
+  },
+  "grid_cyberattack": {
+    "title": "Coordinated cyberattack disabling 15% of regional generation for 72h",
+    "horizon_hours": 72,
+    "affected_sectors": ["water", "food", "transport", "comms"],
+    "phases": [
+      {"t_hours": 0, "event": "generation loss begins; load shedding"},
+      {"t_hours": 4, "event": "cold chain losses accumulate at retail"},
+      {"t_hours": 8, "event": "telecom batteries depleting; cell sites drop"},
+      {"t_hours": 24, "event": "water utility generators running low on fuel"},
+      {"t_hours": 48, "event": "boil-water notices spread; wastewater spills"},
+      {"t_hours": 72, "event": "fuel logistics seizing; EMS strain"}
+    ]
+  }
+}
